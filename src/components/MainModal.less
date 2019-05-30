@@ -1,0 +1,43 @@
+@import '../../node_modules/antd/lib/style/themes/default.less';
+
+.main-modal {
+  .ant-form-item {
+    margin-bottom: .5rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .mm-title {
+    margin-bottom: 1rem;
+    color: @black;
+  }
+  .mm-actions {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+  }
+  .mm-rows {
+    padding: 1rem 2rem;
+    height: 55vh;
+    overflow-y: auto;
+    .mm-row {
+      margin-bottom: 1rem;
+      .mm-row-header {
+        padding-bottom: .5rem;
+        border-bottom: 1px solid @border-color-base;
+        color: @black;
+      }
+      .ant-form-item {
+        display: flex;
+        margin-bottom: 0;
+        .ant-form-item-label {
+          margin-right: .5rem;
+          width: 5rem;
+          > label {
+            color: @text-color-secondary;
+          }
+        }
+      }
+    }
+  }
+}

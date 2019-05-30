@@ -1,0 +1,97 @@
+{
+	"code": "0",
+	"data": [{
+		"cName": "年龄",
+		"codeValue": "1",
+		"eName": "age",
+		"isMandatory": "1",
+		"length": "32",
+		"systemList": [{
+			"phaseList": [{
+				"phaseName": "审核",
+				"role": "0"
+			}],
+			"systemCode": "1000",
+			"systemName": "工作流"
+		}, {
+			"phaseList": [{
+				"phaseName": "补录",
+				"role": "0"
+			}],
+			"systemCode": "1001",
+			"systemName": "订单"
+		}, {
+			"phaseList": [{
+				"phaseName": "预录",
+				"role": "0"
+			}],
+			"systemCode": "1002",
+			"systemName": "额度系统"
+		}],
+		"type": "string"
+	}, {
+		"cName": "性别",
+		"codeValue": "1",
+		"eName": "gender",
+		"isMandatory": "1",
+		"length": "32",
+		"systemList": [{
+			"phaseList": [{
+				"phaseName": "审核",
+				"role": "0"
+			}, {
+				"phaseName": "预录",
+				"role": "0"
+			}],
+			"systemCode": "1000",
+			"systemName": "工作流"
+		}],
+		"type": "string"
+	}, {
+		"cName": "名字",
+		"codeValue": "1",
+		"eName": "name",
+		"isMandatory": "1",
+		"length": "32",
+		"systemList": [{
+			"phaseList": [{
+				"phaseName": "合同签署",
+				"role": "1"
+			}, {
+				"phaseName": "审核",
+				"role": "0"
+			}, {
+				"phaseName": "放款",
+				"role": "0"
+			}, {
+				"phaseName": "补录",
+				"role": "0"
+			}, {
+				"phaseName": "预录",
+				"role": "0"
+			}],
+			"systemCode": "1000",
+			"systemName": "工作流"
+		}, {
+			"phaseList": [{
+				"phaseName": "补录",
+				"role": "0"
+			}],
+			"systemCode": "1001",
+			"systemName": "订单系统"
+		}, {
+			"phaseList": [{
+				"phaseName": "审核",
+				"role": "0"
+			}, {
+				"phaseName": "补录",
+				"role": "0"
+			}],
+			"systemCode": "1002",
+			"systemName": "额度系统"
+		}],
+		"type": "string"
+	}],
+	"message": "操作成功",
+	"success": true
+}
